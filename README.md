@@ -1,6 +1,7 @@
 # ARC
-Urban Region Embedding via Adaptive Risk-aware Consensus Learning
+This repo contains the source code and the datasets for the ARC (Adaptive Risk-aware Consensus learning) targeting the problem of urban region embedding. The model utilizes multiple urban data as learning views in order to capture the complex characteristics of urban areas with different semantic characteristics.
 
+We introduce two masked strategies for view reconstruction and design both local and regional levels of masking to better cope with dynamic risk changes, and also incorporate a self-weighted contrastive mechanism in consensus learning. These enable ARC to adapt to quality differences among multiple views and effectively mitigate the issue of representation degradation.
 
 ## Quick Start
 
